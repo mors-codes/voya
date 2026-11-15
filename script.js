@@ -49,6 +49,7 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
+lucide.createIcons();
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
